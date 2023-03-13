@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Pocima
+comment1.params=nombre\ peso
+comment1.target=Pocima(java.lang.String,\ java.lang.Integer)
+numComments=2

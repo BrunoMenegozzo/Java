@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Arco
+comment1.params=
+comment1.target=Arco()
+comment2.params=
+comment2.target=Flecha\ getFlecha()
+comment2.text=\r\n\ Devuelve\ la\ flecha\ asociada\ al\ arco,\ quedando\r\n\ sin\ municion.\r\n\ \r\n\ @return\ La\ flecha\ asociada\ al\ arco.\r\n
+comment3.params=flecha
+comment3.target=void\ setFlecha(Flecha)
+numComments=4

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Elemento
+comment0.text=\r\n\ Modela\ elementos\ que\ representan\ objetos\ a\ utilizar.\r\n
+comment1.params=
+comment1.target=Elemento()
+comment1.text=\r\n\ Constructor\ sin\ par\u00E1metros.\r\n
+comment2.params=nombre\ peso
+comment2.target=Elemento(java.lang.String,\ java.lang.Integer)
+comment2.text=\r\n\ Construye\ un\ objeto\ de\ tipo\ elemento\ con\ un\ nombre\ a\ eleccion,\r\n\ el\ peso\ correspondiente\ y\ el\ tipo\ de\ elemento.\r\n\ \r\n\ @param\ nombre\ El\ nombre\ del\ elemento.\r\n\ @param\ peso\ El\ peso\ del\ elemento.\r\n\ @param\ tipo\ El\ tipo\ de\ elemento.\r\n
+comment3.params=
+comment3.target=java.lang.Integer\ getPeso()
+comment3.text=\r\n\ Devuelve\ el\ peso\ del\ elemento.\r\n\ \r\n\ @return\ El\ peso\ del\ elemento.\r\n
+comment4.params=peso
+comment4.target=void\ setPeso(java.lang.Integer)
+comment5.params=
+comment5.target=java.lang.String\ getNombre()
+comment5.text=\r\n\ Devuelve\ el\ nombre\ del\ elemento.\r\n\ \r\n\ @return\ El\ nombre\ del\ elemento.\r\n
+comment6.params=nombre
+comment6.target=void\ setNombre(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Devuelve\ el\ elemento\ como\ texto.\r\n\ \r\n\ @return\ El\ texto\ que\ representa\ al\ elemento.\r\n
+numComments=8

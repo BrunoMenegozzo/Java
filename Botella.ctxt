@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=Botella
+comment1.params=
+comment1.target=Botella()
+comment1.text=\r\n\ Crea\ una\ botella\ para\ transportar\ liquido.\r\n\ \r\n\ Debe\ inicializarse\ con\ el\ peso\ propio\ y\ en\ estado\ vacia.\r\n
+comment10.params=
+comment10.target=EstadoContenedor\ getEstado()
+comment2.params=liquido
+comment2.target=void\ llenarBotella(Elemento)
+comment2.text=\r\n\ Delegate\ methods\ para\ acceder\ a\ los\ metodos\ apropiados\r\n\ en\ base\ al\ estado\ del\ objeto.\r\n\ \r\n\ Llena\ la\ botella\ con\ el\ liquido\ indicado\ agregando\ el\ peso\ del\r\n\ nuevo\ liquido.\ Genera\ el\ nuevo\ nombre\ de\ la\ botella\ y\ actualiza\r\n\ el\ peso.\r\n\ \r\n\ @param\ liquido\ El\ liquido\ para\ rellenar\ la\ botella\r\n\ @throws\ ContenedorLlenoException\ En\ caso\ que\ la\ botella\ se\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ encuentre\ llena\ con\ el\ mensaje\:\ "Botella\ llena".\r\n\ @throws\ AccionNoPermitidaException\ En\ caso\ que\ el\ elemento\ no\ sea\ un\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ liquido\ con\ el\ mensaje\:\ "Botella\ no\ admite\ <elemento>"\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (<elemento>\ \=\=\ nombre\ del\ elemento).\r\n
+comment3.params=elemento
+comment3.target=void\ addElemento(Elemento)
+comment4.params=
+comment4.target=Elemento\ vaciarBotella()
+comment4.text=\r\n\ Delegate\ methods\ para\ acceder\ a\ los\ metodos\ apropiados\r\n\ en\ base\ al\ estado\ del\ objeto.\r\n\ \r\n\ Vacia\ el\ contenido\ de\ la\ botella\ y\ actualiza\ el\ peso.\r\n\ La\ botella\ queda\ lista\ para\ recargar.\ Genera\ el\ nuevo\ nombre\r\n\ de\ la\ botella\ y\ actualiza\ el\ peso.\r\n\ \r\n\ @return\ El\ contenido\ de\ la\ botella.\r\n\ @throws\ ContenedorVacioException\ En\ caso\ que\ la\ botella\ se\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ encuentre\ vacia\ con\ el\ mensaje\:\ "Botella\ vacia".\r\n\ @throws\ AccionNoPermitidaException\ No\ aplica.\r\n
+comment5.params=
+comment5.target=Elemento\ getElemento()
+comment6.params=nombre
+comment6.target=Elemento\ getElemento(java.lang.String)
+comment6.text=\r\n\ Se\ utiliza\ la\ version\ implementada\ en\ EstadoContenedor,\r\n\ que\ siempre\ lanza\ la\ excepcion\ AccionNoPermitidaException.\r\n
+comment7.params=
+comment7.target=void\ generarNombre()
+comment7.text=\r\n\ Establece\ la\ descripcion\ de\ la\ botella\ con\ su\ contenido\r\n\ correspondiente,\ por\ ej.\ "Botella\ con\ Agua".\r\n\ En\ caso\ de\ que\ no\ tenga\ contenido,\ utiliza\ el\ texto\r\n\ "Botella\ vacia"\r\n
+comment8.params=
+comment8.target=Elemento\ getContenido()
+comment9.params=contenido
+comment9.target=void\ setContenido(Elemento)
+numComments=11

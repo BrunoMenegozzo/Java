@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Arroyo
+comment1.params=
+comment1.target=Arroyo()
+comment2.params=
+comment2.target=Elemento\ getAgua()
+comment2.text=\r\n\ Delegate\ methods\ para\ acceder\ a\ los\ metodos\ apropiados\r\n\ en\ base\ al\ estado\ del\ objeto.\r\n\ \r\n\ @return\ Objeto\ tipo\ Agua\ pero\ como\ Elemento.\r\n\ @throws\ ContenedorVacioException\ No\ aplica\ porque\ es\ una\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ fuente\ infinita.\r\n\ @throws\ AccionNoPermitidaException\ En\ caso\ de\ querer\ aplicar\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ los\ metodos\ addElemento\ o\ getElemento(nombre).\r\n
+comment3.params=
+comment3.target=Elemento\ getElemento()
+comment4.params=elemento
+comment4.target=void\ addElemento(Elemento)
+comment4.text=\r\n\ Se\ utiliza\ la\ version\ implementada\ en\ EstadoContenedor,\r\n\ que\ siempre\ lanza\ la\ excepcion\ AccionNoPermitidaException.\r\n
+comment5.params=nombre
+comment5.target=Elemento\ getElemento(java.lang.String)
+comment5.text=\r\n\ Se\ utiliza\ la\ version\ implementada\ en\ EstadoContenedor,\r\n\ que\ siempre\ lanza\ la\ excepcion\ AccionNoPermitidaException.\r\n
+comment6.params=
+comment6.target=EstadoContenedor\ getEstado()
+comment6.text=\r\n\ FIN\ Patron\ State\ *************\ \r\n
+numComments=7

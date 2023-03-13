@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Contenedor
+comment0.text=\r\n\ Esta\ interface\ se\ utiliza\ para\ implementar\ funcionalidad\ a\r\n\ los\ contenedores.\ \ Como\ puede\ verse,\ este\ rol\ es\ transversal\r\n\ a\ varias\ jerarquias\ de\ herencia.\r\n\ \r\n\ En\ cada\ clase\ que\ implemente\ esta\ inteface\ se\ debe\ implementar\r\n\ el\ patron\ "state"\ (relacionado\ con\ maquina\ de\ estados).\r\n\ Este\ patron\ de\ dise\u00F1o\ facilitar\ el\ uso,\ mantenimiento\ y\r\n\ extension\ del\ software.\r\n\ \r\n\ Ref.\ https\://blogs.oracle.com/javamagazine/the-state-pattern\r\n\ \r\n\ Ver\ clases\ Arroyo\ y\ Barrica\ como\ ejemplos.\r\n
+comment1.params=elemento
+comment1.target=void\ addElemento(Elemento)
+comment1.text=\r\n\ El\ contenedor\ recibe\ un\ elemento\ para\ agregar.\r\n\ \r\n\ Solo\ admite\ el\ elemento\ indicado\ si\ se\ corresponde\ con\ el\r\n\ tipo\ esperado\ a\ la\ clase\ que\ lo\ implementa\ y\ si\ se\ encuentra\r\n\ en\ uno\ de\ los\ estados\ no\ lleno.\r\n\ \r\n\ @param\ elemento\ El\ elemento\ a\ agregar.\r\n\ @throws\ ContenedorLlenoException\ En\ caso\ que\ el\ contenedor\ no\r\n\ \ \ \ \ \ \ \ \ tenga\ lugar\ disponible.\r\n\ @throws\ AccionNoPermitidaException\ En\ caso\ que\ el\ elemento\ no\r\n\ \ \ \ \ \ \ \ \ se\ corresponda\ con\ el\ contenedor.\r\n
+comment2.params=
+comment2.target=Elemento\ getElemento()
+comment2.text=\r\n\ El\ contenedor\ entrega\ un\ elemento.\r\n\ \r\n\ @return\ El\ elemento\ a\ entregar.\r\n\ @throws\ ContenedorVacioException\ En\ caso\ que\ el\ contenedor\ se\r\n\ \ \ \ \ \ \ \ \ encuentre\ vacio.\r\n
+comment3.params=nombre
+comment3.target=Elemento\ getElemento(java.lang.String)
+comment3.text=\r\n\ El\ contenedor\ entrega\ un\ elemento.\r\n\ \r\n\ @param\ nombre\ El\ nombre\ del\ objeto\ a\ entregar.\r\n\ @return\ El\ elemento\ a\ entregar.\r\n\ @throws\ AccionNoPermitidaException\ En\ caso\ que\ el\ contenedor\r\n\ \ \ \ \ \ \ \ \ no\ tenga\ almacenado\ el\ elemento\ solicitado.\r\n
+numComments=4
